@@ -54,7 +54,7 @@ time.sleep(1)
 
 #填写宿舍号
 xpath='/html/body/div[1]/div[2]/div[1]/div[2]/div[2]/div/div/div[1]/div[1]/div[3]/div/table/tbody/tr[4]/td[4]/div/div[1]/div/span/span/div[2]/input'
-driver.find_element_by_xpath(xpath).send_keys('东校区家属区29号楼A306')
+driver.find_element_by_xpath(xpath).send_keys('东校区家属区')
 time.sleep(0.3)
 
 
@@ -107,7 +107,7 @@ time.sleep(0.3)
 
 # 外出去向
 xpath='/html/body/div[1]/div[2]/div[1]/div[2]/div[2]/div/div/div[1]/div[1]/div[4]/div/table/tbody/tr[3]/td[2]/div/div[1]/div/span/div[2]/textarea'
-driver.find_element_by_xpath(xpath).send_keys('东校区家属区29号楼A306')
+driver.find_element_by_xpath(xpath).send_keys('东校区家属区')
 time.sleep(0.3)
 
 # 外出事由
@@ -182,7 +182,7 @@ time.sleep(4)
 
 # 外出地点
 xpath='/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div/div/div[1]/div[1]/div[6]/div/table/tbody/tr[3]/td[1]/div/div[1]/div/span/span/div[2]/input'
-driver.find_element_by_xpath(xpath).send_keys('东校区家属区29号楼A306')
+driver.find_element_by_xpath(xpath).send_keys('东校区家属区')
 time.sleep(2)
 
 # 乘坐交通工具
